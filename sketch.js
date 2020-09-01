@@ -27,9 +27,10 @@ function setup() {
 	chain2=new Chain(bob2.body,roof1.body,-bobdiameter*1,0);
 	chain3=new Chain(bob3.body,roof1.body, bobdiameter*0,0);
 	chain4=new Chain(bob4.body,roof1.body, bobdiameter*1,0);
-	chain5=new Chain(bob5.body,roof1.body, bobdiameter*2,0);
-
-	
+    chain5=new Chain(bob5.body,roof1.body, bobdiameter*2,0);
+   
+   
+    
 
 
 	Engine.run(engine);
@@ -52,7 +53,8 @@ function draw() {
   bob4.display();
   bob5.display();
   roof1.display();
- 
+  text('Press Up arrow once to Play',220,205);
+  fill('red');
 
   drawSprites();
  
